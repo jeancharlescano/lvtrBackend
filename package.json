@@ -1,0 +1,24 @@
+{
+  "name": "lvtrbackend",
+  "version": "1.0.0",
+  "description": "partie back du site lvtr",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeancharlescano/lvtrBackend.git"
+  },
+  "author": "jean-charles CANO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeancharlescano/lvtrBackend/issues"
+  },
+  "homepage": "https://github.com/jeancharlescano/lvtrBackend#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pg": "^8.7.1"
+  }
+}
