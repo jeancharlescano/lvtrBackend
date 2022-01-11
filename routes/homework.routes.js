@@ -3,11 +3,15 @@ import { Router } from "express";
 const router = Router();
 
 import {
-    getAllHomework,
-    createHomework
+    createHomework,
+    getAllHomeworks,
+    getHomeworkById,
+    deleteHomeworkById
 } from "../controller/homework.controller.js"
 
-router.get("/", getAllHomework);
 router.post("/", createHomework);
+router.get("/", getAllHomeworks);
+router.post("/", getHomeworkById);
+router.post("/delete", deleteHomeworkById);
 
 export default router;
