@@ -1,6 +1,6 @@
-import { Router } from "express";
-import { Pool } from "pg/lib";
-const router = Router();
+import { pool } from "../config/database.config.js";
+
+pool.connect;
 
 export const createHomework = async (req, res) => {
   const { matiere, type, dateCreation, dateRendu, description, idAdmin } =

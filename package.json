@@ -2,10 +2,11 @@
   "name": "lvtrbackend",
   "version": "1.0.0",
   "description": "partie back du site lvtr",
-  "main": "index.js",
   "type": "module",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,10 @@
   },
   "homepage": "https://github.com/jeancharlescano/lvtrBackend#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
     "express": "^4.17.2",
+    "nodemon": "^2.0.15",
     "pg": "^8.7.1"
   }
 }
